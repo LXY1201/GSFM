@@ -4,7 +4,7 @@ Code used for the analysis of the paper:
 
 GSFM ：A Genome-Scale Functional Module transformation to represent drug efficacy for in silico drug discovery.
 
-Saisai Tian, Xuyang Liao, Wen Cao, Xinyi Wu, Zexi Chen, Jinyuan Lu, Yangchen Guo, Qun Wang, Jinsong Zhang, Luonan Chen, Weidong Zhang
+Saisai Tian, Xuyang Liao, Wen Cao, Xinyi Wu, Zexi Chen, Jinyuan Lu, Qun Wang, Jinsong Zhang, Luonan Chen, Weidong Zhang
 
 # STEP 1 Data processing
 Description: Process data from TCGA and LINCS databases,and further measured the correlation between each sample and cell line, and removed samples that are not correlated to the cell lines.
