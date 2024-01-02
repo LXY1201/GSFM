@@ -27,7 +27,7 @@ Description: Calculation of the four biologically interpretable quantifiers (BIQ
      docker run -it -d  --restart=always --name GSFM-notebook   -p 12101:8888 --log-opt max-size=10m --log-opt max-file=5 -v `pwd`/project:/project   gsfm-script
      docker container exec -it GSFM-notebook bash
      jupyter-notebook --ip=0.0.0.0 --port=8888 --allow-root --no-browser
-     Open BRCA_GSFM.ipynb
+     run ./project/Notebooks BRCA_GSFM.ipynb
 
 # STEP 3 Drug discovery
 Description: Calculation of RS-GSFM, RS-Gene, RS-Viper                                                                                 
